@@ -5,6 +5,8 @@ import './App.css'
 // import ChileSingers from './ChileSingers'
 import Counter from './Counter'
 import Team from './Team'
+import Users from './Users'
+import Friends from './Friends'
 
 
 // previous day recap
@@ -48,6 +50,8 @@ import Team from './Team'
   }
   return(
     <>
+    <Friends></Friends>
+    <Users></Users>
     <Team></Team>
     <Counter></Counter>
     <h3>React core concepts part 2</h3>
